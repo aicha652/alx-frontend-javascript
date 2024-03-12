@@ -11,7 +11,7 @@ export default function cleanSet(mySet, myStr) {
     }
   }
   if (text.endsWith('-') === true) {
-    text = text.slice(0, text.length - 1);
+    text = text.slice(0, -1);
   }
   return text;
 }
